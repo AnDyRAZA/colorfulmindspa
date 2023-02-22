@@ -67,7 +67,19 @@ i {
     color: #2d286a;
     background-image: url("https://andyraza.github.io/colorfulmindspa/images/bg1.png");
     background-size: contain;
+    animation: image 5s infinite alternate;
+
 } 
+
+@keyframes image {
+    0% {
+      background-image: url('https://andyraza.github.io/colorfulmindspa/images/bg1.png');
+    }
+    100% {
+      background-image: url('https://andyraza.github.io/colorfulmindspa/images/bg2.jpg');
+    }
+  }
+
 #quienes_somos img {
     padding-top: 10%;
     width: 70%;
