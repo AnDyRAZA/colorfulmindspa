@@ -65,7 +65,7 @@ i {
     padding-top: 10%;
     font-family: 'Montserrat', sans-serif;
     color: #2d286a;
-    background-image: url("images/bg1.png");
+    background-image: url("/images/bg1.png");
     background-size: contain;
 } 
 #quienes_somos img {
