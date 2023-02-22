@@ -219,7 +219,7 @@ i {
 padding: 0 10px;
 }
 
- @media screen and (max-width:380px) {
+ @media screen and (max-width:300px) {
 
    .section_titles {
         font-weight: 900;
