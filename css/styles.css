@@ -219,7 +219,7 @@ i {
 .foot-space {
 padding: 0 10px;
 }
-
+    /*
 @media (max-width: 576px) {
 
    .section_titles {
@@ -242,7 +242,7 @@ padding: 0 10px;
 
  }
 
-    /*
+
     .section-padding {
         padding:3% 14% 7%;
     }
