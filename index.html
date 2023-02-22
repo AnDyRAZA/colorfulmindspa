@@ -22,31 +22,34 @@
     <script src="https://kit.fontawesome.com/a964aa96bf.js" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
     <section id="title" class="section-padding">
 
         <!-- titulo y logo -->
         <!-- nav bar -->
-        <nav class="navbar navbar-expand-xl nav-padding">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/logo_mini.png" class="logomini"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link nav-item" href="#quienes_somos">Quiénes Somos</a>
-                        <a class="nav-link nav-item" href="#servicios">Servicios</a>
-                        <a class="nav-link nav-item" href="#ubicacion">Ubicación</a>
-                        <a class="nav-link nav-item" href="#contactenos">Contáctenos</a>
+        <div class="container-fluid fixed-top">
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <div class="container-fluid">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <a class="navbar-brand space-left" href="#"><img src="images/logo_mini.png" class="logomini"></a>
+                        <div class="navbar-nav ms-auto space-right">
+                            
+                            <a class="nav-link nav-item" href="#quienes_somos">Quiénes Somos</a>
+                            <a class="nav-link nav-item" href="#servicios">Servicios</a>
+                            <a class="nav-link nav-item" href="#ubicacion">Ubicación</a>
+                            <a class="nav-link nav-item" href="#contactenos">Contáctenos</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-        <div class="row nav-padding">
+            </nav>
+        </div>
+        <div class="row space_bottom">
             <div class="col-lg-6 col-md-12">
                 <h1 class="section_titles">Centro Psicológico para el aprendizaje y estimulación en la primera infancia.
                 </h1>
@@ -103,62 +106,6 @@
     <!-- Nuestros Servicios -->
     <section id="servicios" class="section-padding">
         <h2 class="section_titles">Servicios</h2>
-        <!-- <div id="carouselServiceIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button"  data-bs-target="#carouselServiceIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselServiceIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselServiceIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="estimulacion">
-                        <img src="images/estimulacion_sensorial.png" class="servicios-img" alt="estimulacion sensorial">
-                        <h5>Edades de 2 a 6 anos</h5>
-                        <ul>
-                            <li>Estimulacion Sensorial</li>
-                            <li>Habilidades Psicomotoras</li>
-                            <li>Experimentos</li>
-                            <li>Juegos y mas</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="estimulacion">
-                        <img src="images/motrocidad_fina.png" class="servicios-img" alt="Motrocidad Fina">
-                        <h5>Preescolar y Primaria</h5>
-                        <ul>
-                            <li>Pensamiento espacial, Razonamiento lógico-matemático</li>
-                            <li>Lectoescritura</li>
-                            <li>Actividades de estimulacion</li>
-                            <li>Aprendizaje mediante el juego</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="estimulacion">
-                        <img src="images/english.png" class="servicios-img" alt="English Class">
-                        <h5>Ages from 2 to 9</h5>
-                        <ul>
-                            <li>Limited spaces available</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselServiceIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselServiceIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div> -->
-
         <div class="box">
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
@@ -214,7 +161,7 @@
     <!-- Ubicacion y Horarios -->
     <section id="ubicacion" class="section-padding">
         <h2 class="section_titles">Dirección</h2>
-        <div class="row nav-padding">
+        <div class="row space_bottom">
             <div class="addr_padding col-lg-6 col-md-12">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.801371301271!2d-79.50651488560626!3d8.99041709206844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca95986c82e45%3A0x84fcd2c0c4db26ff!2sColorful%20Minds%20PA!5e0!3m2!1sen!2spa!4v1676766751082!5m2!1sen!2spa"

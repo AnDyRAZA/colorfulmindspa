@@ -3,6 +3,7 @@
     background-color: #E3F6FF;
     color: #2d286a;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 15%;
 }
 i {
     margin-right: 10px ;
@@ -15,27 +16,42 @@ i {
     text-align: left;
 }
 
-
 .section-padding {
     padding:3% 14% 7%;
 }
 .logo {
-    width: 80%;
+    width: 90%;
 
 }
 .image-padding {
     padding-left: 20%;
 }
 
-.nav-padding {
-    padding-bottom: 15%;
+.container-fluid {
+   
+    background-color: #2d286a;
+
 } 
+.space-right {
+    padding-right: 7%;
+}
+.space-left {
+    padding-left: 7%;
+}
+
+.space_bottom {
+    padding-bottom: 15%;
+}
+.navbar-toggler {
+    color:#E3F6FF;
+}
+
 .nav-item {
     font-size: 1.2rem;
-    color: #2d286a;
+    color: #E3F6FF;
 }
 .nav-item:hover {
-    /* color: #9DF1DF; */
+
     color:#EB455F;
 }
 .logomini {
@@ -203,24 +219,25 @@ i {
 padding: 0 10px;
 }
 
-@media (max-width: 770px) {
-    #title {
-        background-color: #E3F6FF;
-        color: #2d286a;
-        font-family: 'Montserrat', sans-serif;
-    }
-    i {
-        margin-right: 10px ;
-    }
-    
-    .section_titles {
+ @media screen and (max-width:380px) {
+
+   .section_titles {
         font-weight: 900;
         line-height: 1.5;
-        font-size: 4rem; 
+        font-size: 3.5rem; 
         text-align: left;
+    } 
+    .logo {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    
     }
-    
-    
+
+ }
+
+    /*
     .section-padding {
         padding:3% 14% 7%;
     }
@@ -231,6 +248,10 @@ padding: 0 10px;
     .image-padding {
         padding-left: 20%;
     }
+    /* .nav {
+        position:absolute;
+        width: 100%;
+    }
     
     .nav-padding {
         padding-bottom: 15%;
@@ -240,7 +261,7 @@ padding: 0 10px;
         color: #2d286a;
     }
     .nav-item:hover {
-        /* color: #9DF1DF; */
+   
         color:#EB455F;
     }
     .logomini {
@@ -248,4 +269,35 @@ padding: 0 10px;
     
     }
 
-}
+    #quienes_somos {
+        padding-top: 10%;
+        font-family: 'Montserrat', sans-serif;
+        color: #2d286a;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #quienes_somos img {
+        padding-top: 10%;
+        width: 50%;
+        border-radius: 100%
+    
+    }
+    #quienes_somos h2 {
+        padding: 10px 0;
+        font-size: 2rem;
+    }
+    #quienes_somos p  {
+        line-height: 1.5;
+        padding-bottom: 15px;
+        font-size:2rem;
+    }
+    .quienes_links {
+        text-decoration: none;
+        color: #2d286a;
+    
+    }
+    .quienes_links:hover {
+            color: #EB455F;
+    }
+
+}   */
