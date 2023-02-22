@@ -1,0 +1,251 @@
+
+#title {
+    background-color: #E3F6FF;
+    color: #2d286a;
+    font-family: 'Montserrat', sans-serif;
+}
+i {
+    margin-right: 10px ;
+}
+
+.section_titles {
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 2.5rem; 
+    text-align: left;
+}
+
+
+.section-padding {
+    padding:3% 14% 7%;
+}
+.logo {
+    width: 80%;
+
+}
+.image-padding {
+    padding-left: 20%;
+}
+
+.nav-padding {
+    padding-bottom: 15%;
+} 
+.nav-item {
+    font-size: 1.2rem;
+    color: #2d286a;
+}
+.nav-item:hover {
+    /* color: #9DF1DF; */
+    color:#EB455F;
+}
+.logomini {
+    width:15% ;
+
+}
+
+/* Aqui inicia la seccion de quienes somos  */
+#quienes_somos {
+    padding-top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: #2d286a;
+} 
+#quienes_somos img {
+    padding-top: 10%;
+    width: 70%;
+    border-radius: 100%
+
+}
+#quienes_somos h2 {
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+#quienes_somos p  {
+    line-height: 1.5;
+    padding-bottom: 15px;
+    font-size:.8rem;
+}
+.quienes_links {
+    text-decoration: none;
+    color: #2d286a;
+
+}
+.quienes_links:hover {
+        color: #EB455F;
+}
+/* Seccion de Servicios */
+#servicios, #contactenos {
+    padding-top:10%;
+    background-color: #E3F6FF;
+    color: #2d286a;
+    font-family: 'Montserrat', sans-serif;
+}
+.box {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* .servicios-img {
+    width: 45%;
+    float: left;
+    margin-right: 60px;
+}
+.estimulacion {
+    width: 100%;
+    text-align: left;
+    line-height: 2;
+        
+} */
+/* Carousel Custom Modifications */
+.carousel-item {
+    padding: 7% 15%;
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-image: none;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: #2d286a;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #2d286a;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+.carousel .carousel-indicators button {background-color: #EB455F;}
+.carousel .carousel-indicators button.active {background-color:#2d286a;}
+
+.carousel-caption {
+    color: #2d286a;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size:.8rem;
+    background-color: #E3F6FF;
+    text-align: left;
+}
+.p-padding {
+    padding-bottom: 5%;
+}
+/* <!-- Ubicacion y Horarios --> */
+#ubicacion {
+    padding-top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: #2d286a;
+    padding-bottom: 15px;
+}
+
+#ubicacion p, #contactenos p {
+
+    line-height: 1.5;
+    font-size:.8rem;
+}
+
+
+
+.addr_padding {
+    padding-top: 5%;
+}
+
+/* <!-- Contactanos --> */
+#contactenos p {
+
+    line-height: 1;
+    font-size:.8rem;
+}
+.form-control {
+    font-size:.8rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-primary {
+    font-size:.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+    /* <!-- Footer --> */
+
+#footer {
+    font-size:.7rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #2d286a;
+    color: #fff;
+    padding: 2px 0;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer a:hover{
+    text-decoration: none;
+    color:#EB455F;
+}
+
+.foot-space {
+padding: 0 10px;
+}
+
+@media (max-width: 770px) {
+    #title {
+        background-color: #E3F6FF;
+        color: #2d286a;
+        font-family: 'Montserrat', sans-serif;
+    }
+    i {
+        margin-right: 10px ;
+    }
+    
+    .section_titles {
+        font-weight: 900;
+        line-height: 1.5;
+        font-size: 4rem; 
+        text-align: left;
+    }
+    
+    
+    .section-padding {
+        padding:3% 14% 7%;
+    }
+    .logo {
+        width: 80%;
+    
+    }
+    .image-padding {
+        padding-left: 20%;
+    }
+    
+    .nav-padding {
+        padding-bottom: 15%;
+    } 
+    .nav-item {
+        font-size: 2.5rem;
+        color: #2d286a;
+    }
+    .nav-item:hover {
+        /* color: #9DF1DF; */
+        color:#EB455F;
+    }
+    .logomini {
+        opacity: 1; 
+    
+    }
+
+}
