@@ -222,7 +222,7 @@ i {
 padding: 0 10px;
 }
 
- @include media-breakpoint-up(sm) {
+@media (min-width: 576px) {
 
    .section_titles {
         font-weight: 900;
