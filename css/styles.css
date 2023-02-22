@@ -50,7 +50,7 @@ i {
 }
 
 .nav-item {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #E3F6FF;
 }
 .nav-item:hover {
@@ -236,6 +236,10 @@ padding: 0 10px;
         margin-right: auto;
         padding-top: 5%;
      */
+    }
+    .nav-item {
+        font-size: 1.2rem;
+        color: #E3F6FF;
     }
 
  }
