@@ -80,15 +80,27 @@ i {
     }
   }
 
-#quienes_somos img {
+.quienes_img {
     padding-top: 10%;
     width: 70%;
-    border-radius: 100%
+    border-radius: 100%;
 
+}
+.img_center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 .colbg {
     background-color: #fff;
 }
+.colbg:hover {
+    background-color: #E3F6FF;
+
+}
+
+
+
 #quienes_somos h2 {
     padding: 10px 0;
     font-size: 1.5rem;
