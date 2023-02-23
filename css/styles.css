@@ -20,7 +20,7 @@ i {
     padding:3% 14% 7%;
 }
 .logo {
-    width: 90%;
+    width: 80%;
 
 
 }
@@ -38,6 +38,9 @@ i {
 }
 .space-left {
     padding-left: 7%;
+}
+.space_up {
+    padding-top :5% ;
 }
 
 .space_bottom {
@@ -65,7 +68,7 @@ i {
     padding-top: 10%;
     font-family: 'Montserrat', sans-serif;
     color: #2d286a;
-    background-image: url("https://andyraza.github.io/colorfulmindspa/images/bg1.png");
+    background-image: url("../images/bg1.png");
     background-size: contain;
     animation: image 10s infinite alternate;
 
