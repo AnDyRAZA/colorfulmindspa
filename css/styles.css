@@ -73,10 +73,10 @@ i {
 
 @keyframes image {
     0% {
-      background-image: url('https://andyraza.github.io/colorfulmindspa/images/bg1.png');
+      background-image: url('../images/bg1.png');
     }
     100% {
-      background-image: url('https://andyraza.github.io/colorfulmindspa/images/bg2.jpg');
+      background-image: url('../images/bg2.jpg');
     }
   }
 
@@ -86,29 +86,25 @@ i {
     border-radius: 100%;
 
 }
-.img_center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+
 .colbg {
     background-color: #fff;
+    padding: 5%;
 }
 .colbg:hover {
     background-color: #E3F6FF;
 
 }
 
-
-
 #quienes_somos h2 {
-    padding: 10px 0;
+    padding: 10px 0 30px;
     font-size: 1.5rem;
 }
 #quienes_somos p  {
     line-height: 1.5;
     padding-bottom: 15px;
     font-size:.8rem;
+    text-align: left;
 }
 .quienes_links {
     text-decoration: none;
