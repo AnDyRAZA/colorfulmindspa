@@ -93,6 +93,7 @@ i {
 }
 .colbg:hover {
     background-color: #E3F6FF;
+    box-shadow: 5px 5px 5px #BAD7E9;
 
 }
 
