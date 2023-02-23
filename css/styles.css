@@ -230,7 +230,6 @@ i {
 #footer {
     font-size:.7rem;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     background-color: #2d286a;
     color: #fff;
     padding: 2px 0;
@@ -245,93 +244,7 @@ i {
     color:#EB455F;
 }
 
-.foot-space {
+/* .foot-space {
 padding: 0 10px;
-}
-    /*
-@media (max-width: 576px) {
-
-   .section_titles {
-        font-weight: 900;
-        line-height: 1.5;
-        font-size: 2.5rem; 
-        text-align: left;
-    } 
-    .logo {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 5%;
-    
-    }
-    .nav-item {
-        font-size: 1.2rem;
-        color: #E3F6FF;
-    }
-
- }
-
-
-    .section-padding {
-        padding:3% 14% 7%;
-    }
-    .logo {
-        width: 80%;
-    
-    }
-    .image-padding {
-        padding-left: 20%;
-    }
-    /* .nav {
-        position:absolute;
-        width: 100%;
-    }
-    
-    .nav-padding {
-        padding-bottom: 15%;
-    } 
-    .nav-item {
-        font-size: 2.5rem;
-        color: #2d286a;
-    }
-    .nav-item:hover {
+} */
    
-        color:#EB455F;
-    }
-    .logomini {
-        opacity: 1; 
-    
-    }
-
-    #quienes_somos {
-        padding-top: 10%;
-        font-family: 'Montserrat', sans-serif;
-        color: #2d286a;
-        margin-left: auto;
-        margin-right: auto;
-    } 
-    #quienes_somos img {
-        padding-top: 10%;
-        width: 50%;
-        border-radius: 100%
-    
-    }
-    #quienes_somos h2 {
-        padding: 10px 0;
-        font-size: 2rem;
-    }
-    #quienes_somos p  {
-        line-height: 1.5;
-        padding-bottom: 15px;
-        font-size:2rem;
-    }
-    .quienes_links {
-        text-decoration: none;
-        color: #2d286a;
-    
-    }
-    .quienes_links:hover {
-            color: #EB455F;
-    }
-
-}   */
