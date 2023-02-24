@@ -186,9 +186,11 @@ i {
     font-family: 'Montserrat', sans-serif;
     color: #2d286a;
     padding-bottom: 15px;
-    background-image: url("../images/bg_cra.png");
-    background-repeat: repeat-y;
+    background-image: url("../images/bg_cra.png"), url("../images/doodles.png");
+    background-repeat: repeat-y, no-repeat;
+    background-size: 10%, cover ;
 }
+
 .dir_box {
     background-color: #fff;
     text-align: left;
