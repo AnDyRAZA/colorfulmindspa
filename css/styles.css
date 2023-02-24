@@ -218,12 +218,13 @@ i {
     /* <!-- Footer --> */
 
 #footer {
-    font-size:.7rem;
+    font-size: .8rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #2d286a;
     color: #fff;
-    padding: 2px 0;
+    padding: 1% 20%;
 }
+
 
 #footer a{
     text-decoration: none;
