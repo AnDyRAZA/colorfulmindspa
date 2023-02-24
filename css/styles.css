@@ -186,6 +186,8 @@ i {
     font-family: 'Montserrat', sans-serif;
     color: #2d286a;
     padding-bottom: 15px;
+    background-image: url("../images/bg_cra.png");
+    background-repeat: repeat-y;
 }
 
 #ubicacion p, #contactenos p {
