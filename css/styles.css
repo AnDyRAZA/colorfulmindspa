@@ -189,7 +189,11 @@ i {
     background-image: url("../images/bg_cra.png");
     background-repeat: repeat-y;
 }
+.dir_box {
+    background-color: #fff;
+    text-align: left;
 
+}
 #ubicacion p, #contactenos p {
 
     line-height: 1.5;
