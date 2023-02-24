@@ -1,9 +1,16 @@
 
 #title {
     background-color: #E3F6FF; 
-    color: #2d286a;
+    color:  #2d286a;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 15%;
+    /* padding-top: 15%; */
+    background-image: url("../images/estimulacion-temprana.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#title h1 {
+    text-align: center;
 }
 i {
     margin-right: 10px ;
@@ -13,14 +20,28 @@ i {
     font-weight: 900;
     line-height: 1.5;
     font-size: 2.5rem; 
-    text-align: left;
+    text-align: left;                                                                                                                                                                                                                                                                                                                                                                                             
+}
+.titlebg {
+    background-color:rgba(227, 246, 255,.5);
+    padding: 5%;
+    ;
+}
+
+.title-padding {
+    padding:7% 0 7%;
+}
+.main-padding {
+    padding-left: 14%;
+    padding-right: 14%;
 }
 
 .section-padding {
     padding:3% 14% 7%;
 }
 .logo {
-    width: 80%;
+    width: 50%;
+
 }
 .image-padding {
     padding-left: 20%;
