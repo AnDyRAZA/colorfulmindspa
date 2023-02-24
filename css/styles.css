@@ -21,8 +21,6 @@ i {
 }
 .logo {
     width: 80%;
-
-
 }
 .image-padding {
     padding-left: 20%;
@@ -186,9 +184,9 @@ i {
     font-family: 'Montserrat', sans-serif;
     color: #2d286a;
     padding-bottom: 15px;
-    background-image: url("../images/bg_cra.png"), url("../images/doodles.png");
-    background-repeat: repeat-y, no-repeat;
-    background-size: 10%, cover ;
+    background-image: url("../images/bg_cra.png"), url("../images/topbg.png");
+    background-repeat: repeat-y, repeat-x;
+    background-size: 10%, 50% ;
 }
 
 .dir_box {
