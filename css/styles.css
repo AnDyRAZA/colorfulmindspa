@@ -147,10 +147,7 @@ i {
     font-family: 'Montserrat', sans-serif;
 }
 .box {
-    width:80%;
-    margin-left: auto;
-    margin-right: auto;
-    
+   padding: 2% 5% 7%;
 }
 
 /* Carousel Custom Modifications */
@@ -158,37 +155,6 @@ i {
     padding: 7% 15%;
     
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
-  background-image: none;
-  margin-top: auto;
-  margin-bottom: auto;
-
-}
-
-.carousel-control-next-icon:after {
-  content: '>';
-  font-size: 55px;
-  color: #2d286a;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: auto;
-  margin-bottom: auto;
-
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: #2d286a;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: auto;
-  margin-bottom: auto;
-  
-}
-.carousel .carousel-indicators button {background-color: #EB455F;}
-.carousel .carousel-indicators button.active {background-color:#2d286a;}
 
 .carousel-caption {
     color: #2d286a;
