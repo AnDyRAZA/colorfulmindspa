@@ -1,6 +1,6 @@
 
 #title {
-    background-color: #E3F6FF;
+    background-color: #E3F6FF; 
     color: #2d286a;
     font-family: 'Montserrat', sans-serif;
     padding-top: 15%;
@@ -121,7 +121,7 @@ i {
 /* Seccion de Servicios */
 #servicios, #contactenos {
     padding-top:10%;
-    background-color: #E3F6FF;
+    background-color: #E3F6FF; 
     color: #2d286a;
     font-family: 'Montserrat', sans-serif;
 }
@@ -131,17 +131,7 @@ i {
     margin-right: auto;
     
 }
-/* .servicios-img {
-    width: 45%;
-    float: left;
-    margin-right: 60px;
-}
-.estimulacion {
-    width: 100%;
-    text-align: left;
-    line-height: 2;
-        
-} */
+
 /* Carousel Custom Modifications */
 .carousel-item {
     padding: 7% 15%;
