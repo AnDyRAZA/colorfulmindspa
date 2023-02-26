@@ -173,13 +173,14 @@ i {
     font-family: 'Montserrat', sans-serif;
     color: #2d286a;
     padding-bottom: 15px;
-    background-image: url("../images/bg_cra.png"), url("../images/topbg.png");
-    background-repeat: repeat-y, repeat-x;
-    background-size: 10%, 50% ;
+    background-image: url("../images/bg_cra.png"), url("../images/topbg.png"),url("../images/flowers.png");
+    background-repeat: repeat-y, repeat-x, repeat-x;
+    background-size: 10%, 50%, 15% ;
+    background-position: left, top,bottom;
 }
 
 .dir_box {
-    background-color: #fff;
+    background-color: rgba(227, 246, 255,.5);
     text-align: left;
 
 }
@@ -192,7 +193,7 @@ i {
 
 
 .addr_padding {
-    padding-top: 5%;
+    padding: 5%;
 }
 
 /* <!-- Contactanos --> */
