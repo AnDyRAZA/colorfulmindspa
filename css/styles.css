@@ -3,8 +3,7 @@
     background-color: #E3F6FF; 
     color:  #2d286a;
     font-family: 'Montserrat', sans-serif;
-    /* padding-top: 15%; */
-    background-image: url("../images/estimulacion-temprana.jpg");
+    background-image: url("../images/centro.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -175,7 +174,7 @@ i {
     padding-bottom: 15px;
     background-image: url("../images/bg_cra.png"), url("../images/topbg.png"),url("../images/flowers.png");
     background-repeat: repeat-y, repeat-x, repeat-x;
-    background-size: 10%, 50%, 15% ;
+    background-size: 10%, 50%, 20% ;
     background-position: left, top,bottom;
 }
 
